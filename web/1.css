@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+	overflow: auto;
+	background-color: #664634; 
+	border-top: 2px solid #664634; 
+	color: #fff;  
+}
+#banner{
+	background-color: #fff;
+    height:56px;
+    width: 1536px;
+    opacity: 0.93;
+    position: fixed;
+}
+#q{
+	float: left;
+	margin-top:20px;
+}
+a{
+    font-size: 25px;
+    font-weight:400;
+    color: black;
+    text-decoration: none;
+    margin-left: 42px;
+}
+
+a:hover{
+	color: red;	
+}
+#e{
+	float: left;
+	margin-left: 450px;
+}
+#t{
+    margin:10px auto
+} 
+#t img{ 
+	border-radius:50%
+} 
+#t{
+	margin-left: 680px;
+	margin-top: 100px;
+}
+#mid{
+	height: 45px;
+	width: 830px;
+	margin:20px;
+	margin-left: 340px;
+	background-color: #3e281c;
+	text-align: center;
+}
+h1{
+	font-family:'Vladimir Script';
+	opacity: 0.7
+}
+
+#left{
+	height: 1900px;
+	width: 240px;
+	background-color: #3e281c;
+	margin-left: 340px;	
+	float: left;
+}
+.le{
+	margin: 20px;
+	border:3px solid #fff;
+	opacity: 0.8
+
+}
+h3{
+    margin-left: 20px;
+    opacity: 0.8
+}
+#right{
+	height: 1900px;
+	width: 570px;
+	background-color: #3e281c;
+    margin-right: 300px;
+    margin-left: 20px;   
+    float: left;
+}
+#footer{
+	height: 70px;
+	width: 830px;
+	background-color: #3e281c;
+	margin-left: 340px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: left;
+	border-bottom: 2px solid #fff;
+}
+form{
+
+	text-align: center;
+    opacity: 0.9
+}
+
+ul li{
+	margin:35px;
+	padding: 10px;
+	font-family: '微软雅黑'；
+}
+#right ul li a{
+	font-size: 17px;
+	color: #fff;
+	margin-left: 10px;
+}
+#right ul li a:hover{	
+	color: red;
+
+}
+#qw{
+    margin-top: 50px;
+	margin-left: 60px;
+}
