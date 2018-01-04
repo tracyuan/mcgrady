@@ -95,7 +95,7 @@
   			}
   			a.onmouseout=function(){
      			time=window.setInterval(changeToLeft,30);
-    		}
+    		}//滚动图片
     		var liNodes = document.getElementsByTagName("li");
 			for (var i=0; i<liNodes.length; i++)
 			{
@@ -105,7 +105,7 @@
 				liNodes[i].onmouseout = function(){
 					this.className = "";
 				}
-			}
+			}//下拉菜单
   		}
   	
   	$(function(){
@@ -129,7 +129,7 @@
 				if($(this).text()==$("#password1").text()){
 					alert("密码不一致");
 				}
-			})
+			})//用户注册
 	    });
 	</script>
 </head>
