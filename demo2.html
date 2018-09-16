@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>音乐播放器</title>
+		<link rel = "icon" href = "Icon.png" />
+		<link rel="stylesheet" href="CSS/MusicPlayer.css" />
+		<script type="text/javascript" src="JS/MusicPlayer.js" ></script>
+	</head>
+	<body>
+		<header>
+			<button class="music1" style="float:left;background: #6CA6CD;" >在线音乐</button>
+			<button class="music1">本地音乐</button>			
+		</header>
+		<section class="main">
+			<ul>
+				<li>
+					<a href="#"  onclick="change1()">打个总结 -王闪火</a>
+					<button class="music2" onclick="change1()">播放</button>
+				</li>				
+				<li>
+					<a href="#"  onclick="change3()">乌云中 -艾热</a>
+					<button class="music2" onclick="change3()">播放</button>
+				</li>
+				<li>
+					<a href="#"  onclick="change4()">ice -ice</a>
+					<button class="music2" onclick="change4()">播放</button>
+				</li>
+				<li>
+					<a href="#"  onclick="change5()">Life's A Struggle -宋岳庭</a>
+					<button class="music2" onclick="change5()">播放</button>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<audio src="1.mp3" controls="controls" autoplay="autoplay" loop="loop" id="audio"></audio>
+			<div id="footer"><p>2018/9/16</p></div>
+		</footer>
+	</body>
+</html>
